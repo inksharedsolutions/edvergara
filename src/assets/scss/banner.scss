@@ -85,13 +85,16 @@
 /*Modification*/
 .banner-text{
     line-height: 1;
+
     h1{
         
         text-transform: uppercase;
-        font-size: 7vw;
+        font-size: 6vw;
         line-height: 1;
         font-weight: 900;
-        color: #fff !important;
+        color: #fff!important;
+        background: #1f68a157;
+        padding: 15px;
 
         span{
             &:nth-child(1),
@@ -101,10 +104,8 @@
             }
         }
 
-
         &:after{
             content:'';
-
         }
     }
     
