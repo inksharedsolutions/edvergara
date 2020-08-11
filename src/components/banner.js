@@ -43,7 +43,7 @@ const Banner = ()=>{
                     <div className="two-grid-columns">
                     
                         <div className="grid-child-elem">
-                        </div>
+                        </div> 
 
                         <div className="grid-child-elem">
                             <div className="banner-text">
