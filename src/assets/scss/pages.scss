@@ -1,24 +1,14 @@
 
 
 @import "responsive.scss";
-
 $primary-font: "Quicksand", sans-serif !important;
 $prm-font-size : 12px;
 
 @charset "utf-8";
-// If need, change your variables before importing Bulma
-
 @import "~bulma/bulma.sass";
 
 
 .web-banner{
-    background: url("../../../static/banner/front_banner.png");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 
     span{
         letter-spacing: 0.67em;
