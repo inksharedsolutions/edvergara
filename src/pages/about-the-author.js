@@ -9,12 +9,12 @@ const ATB = (props)=>{
 	return (
 		<> 
 		 	<Layout>
-                 
 		 		<Nav pathExt={props.path}/>
-                 <Banner 
-                 spanFirst={`About The`} 
-                 contextHeading={`Author`}/>
-                  
+
+                <Banner 
+                    spanFirst={`About The`} 
+                    contextHeading={`Author`}/>
+                
 		 		<div className="container">
 				    <section className="body-author-contents columns">
                          
@@ -24,7 +24,7 @@ const ATB = (props)=>{
                             </div>
 
                             <div className="heading-quote">
-                            
+
                                 <h4>
                                     The secret is inside of you; you can 
                                     create your world with your words.

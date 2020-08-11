@@ -29,7 +29,7 @@ const Pp = (props) =>{
 		 	<Layout>
 
 			 	<Nav pathExt={props.path}/>
-
+			 	
                 <Banner 
                     spanFirst={`Privacy`}
                     contextHeading={`Policy`} 
