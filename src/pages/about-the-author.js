@@ -24,13 +24,16 @@ const ATB = (props)=>{
                             </div>
 
                             <div className="heading-quote">
+                            
                                 <h4>
-                                    In order for your faith to work, you have to walk in Love. 
-                                    IF YOU FOLLOW THESE 10 GUIDELINES, you’ll 
-                                    receive more answers to your prayers, receive more
-                                    money, receive your healing, receive more love,
-                                    receive more power, receive more faith, and receive more
-                                    of everything God wants you to have.
+                                    The secret is inside of you; you can 
+                                    create your world with your words.
+                                    You are framing your reality every day.
+                                    You are literally what you think of yourself.
+                                    Your beliefs are not made of realities. Rather,
+                                    your reality is being formed every day by your
+                                    beliefs, thoughts and words. Manifest intentions
+                                    in your words and become the author of reality
                                 </h4>
                                 
                                 <span className="ata-span-fx">
