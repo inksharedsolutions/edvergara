@@ -23,8 +23,8 @@ const Footer = ()=>{
                         </h1>
 
                         <p>
-                            Eduardo Vergara loves to hear from readers. You can reach her via email. 
-                            Feel free to send questions about writing, her works, interviews 
+                            Eduardo Vergara loves to hear from readers. You can reach him via email. 
+                            Feel free to send questions about writing, him works, interviews 
                             and other publicity matters.
                         </p> 
                         
@@ -67,7 +67,7 @@ const Footer = ()=>{
                             <li>
                                 <a 
                                     target="_blank"
-                                    href="https://www.goodreads.com/book/show/45163586-key-west-interlude"
+                                    href="https://www.goodreads.com/book/show/51480991-transcend"
                                     >
 
                                     <FontAwesomeIcon 
@@ -135,7 +135,7 @@ const Footer = ()=>{
 
                         <li>
                             <Link to="/terms-and-conditions">
-                                Terms & Condition
+                                Terms & Conditions
                             </Link>
                         </li>
 

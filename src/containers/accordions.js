@@ -109,7 +109,7 @@ class Accordions extends React.Component {
           </Panel>
 
           <Panel 
-            header="Purschase PaperBack"
+            header="Purchase PaperBack"
             key="3"
             extra={this.genExtra()}>
             <div>

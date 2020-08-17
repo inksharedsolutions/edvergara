@@ -33,7 +33,7 @@ const ATB = (props)=>{
                                     Your beliefs are not made of realities. Rather,
                                     your reality is being formed every day by your
                                     beliefs, thoughts and words. Manifest intentions
-                                    in your words and become the author of reality
+                                    in your words and become the author of reality.
                                 </h4>
                                 
                                 <span className="ata-span-fx">
