@@ -7,6 +7,7 @@ import Banner from "../components/banner"
 import UpperMain from "../components/author"
 import MidBook from "../components/front-book"
 import FeaturedLogos from "../components/mid-main"
+import Trailer from "../components/trailer"
 
 
 
@@ -15,6 +16,7 @@ const IndexPage = (props) => (
       <Nav pathExt={props.path}/>
       <Banner/>
       <MidBook/>
+      <Trailer/>
       <UpperMain/>
       <FeaturedLogos/>
   </Layout>

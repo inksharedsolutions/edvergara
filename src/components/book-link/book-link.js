@@ -4,7 +4,6 @@ import React from 'react'
 
 const BookLink = (props)=>{
 
-
     return(
         <>
             <section className="fullSection">
@@ -13,9 +12,9 @@ const BookLink = (props)=>{
 
                     <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
                         <span>{`${props.data.isNonfront?'Ebooks': ''}`}</span>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.amazon}>Amazon</a></li>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.stratton}>Stratton Press</a></li>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.ebooks.amazon}>Amazon</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.ebooks.stratton}>Stratton Press</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.ebooks.barnes}>Barnes & Noble</a></li>
                     </nav>
 
                 )}      
@@ -23,21 +22,26 @@ const BookLink = (props)=>{
                 {!Object.entries(props.data.paperback).length==0 && (
 
                     <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
-                        <span>{`${props.data.isNonfront?'Purchase Paperback': ''}`}</span>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.amazon}>Amazon</a></li>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.barnes}>Barnes & Noble </a></li>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.booksamillion}>Books A Million</a></li>
+                        <span>{`${props.data.isNonfront? 'Purchase Paperback': ''}`}</span>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.paperback.amazon}>Amazon</a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.paperback.barnes}>Barnes & Noble </a></li>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.paperback.booksamillion}>Books A Million</a></li>
                     </nav>
-                    
+
                 )}
 
-                {!Object.entries(props.data.reviews).length==0 && (
-
-                    <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`}>
-                        <span>Reviews</span>
-                        <li><a target="_blank" href={props.data.reviews.review}>Reviews</a></li>
+                {props.data.hasSpanishVersion && (
+                    <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
+                        <span> Spanish Version Ebook:</span>
+                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.ebooks.spanish_amazon_link}>Amazon</a></li>
                     </nav>
+                )}
 
+                {props.data.hasSpanishVersion && (
+                    <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
+                        <span> Spanish Version Paperback:</span>
+                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.paperback_amazon_link}>Amazon</a></li>
+                    </nav>
                 )}
 
 

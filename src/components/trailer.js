@@ -10,7 +10,7 @@ const Trailer = () =>{
                 <div className="grid-two-columns" id="trailer-body">
                     
                     <div className="grid-child-content">
-                        <h5>Penny Mccoy</h5>
+                        <h5>Ed Vergara</h5>
                         <h1>
                             <span>Book</span>
                             <span>Trailer</span>
@@ -26,7 +26,7 @@ const Trailer = () =>{
                         <div className="player-wrapper">
                             <ReactPlayer
                                 className="react-player"
-                                url={"https://www.youtube.com/watch?v=3PpE0sxomM4"}
+                                url={"https://www.youtube.com/embed/qVkW9wIBtLo"}
                                 width="100%"
                                 height="400px"
                                 controls={true}

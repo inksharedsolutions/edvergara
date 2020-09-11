@@ -24,14 +24,13 @@ const ATB = (props)=>{
                             </div>
 
                             <div className="heading-quote">
-
                                 <h4>
                                     The secret is inside of you; you can 
                                     create your world with your words.
                                     You are framing your reality every day.
                                     You are literally what you think of yourself.
                                     Your beliefs are not made of realities. Rather,
-                                    your reality is being formed every day by your
+                                    your reality is being formed every day by Your
                                     beliefs, thoughts and words. Manifest intentions
                                     in your words and become the author of reality.
                                 </h4>

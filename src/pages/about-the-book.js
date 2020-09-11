@@ -20,8 +20,7 @@ const ATB = (props)=>{
 	return (
 		<>
 		 	<Layout>
-		 		<Nav pathExt={props.path}/>
-                 
+		 		<Nav pathExt={props.path}/> 
 		 		<Banner
                     spanFirst={`About The`}
                     contextHeading={`Book`}
@@ -38,6 +37,7 @@ const ATB = (props)=>{
                                     spanFirst: `The 3 Elements (U= 3Ɛ)`,
                                     imgSrc: FrontBook,
                                     id:'the_gifted_one',
+                                  
                                     content:
                                     `
                                     <p>
@@ -87,29 +87,41 @@ const ATB = (props)=>{
                                         how to transcend, penetrate the celestial universe, and also
                                         connect with your Guardian Angels.
                                     </p>
-                                    
                                     `,
 
                                     ebooks:{
                                         stratton:'https://www.stratton-press.com/books/transcend-the-3-elements/',
                                         barnes:'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458984',
-                                        amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara-ebook/dp/B084Q2FC47/ref=sr_1_1?dchild=1&keywords=9781643458984&qid=1596814551&s=books&sr=1-1', 
+                                        amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara-ebook/dp/B084Q2FC47/ref=sr_1_1?dchild=1&keywords=9781643458984&qid=1596814551&s=books&sr=1-1',
+                                        spanish_amazon_link:'https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1',
                                     },
+
                                     paperback:{
                                         amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara/dp/1643458973/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1596814551&sr=1-1',
                                         barnes:'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458977',
                                         booksamillion:'https://www.booksamillion.com/p/Transcend/Ed-Vergara/9781643458977?id=7714171848832',
+                                        paperback_amazon_link:'https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1',
                                     }
+
                                 }} 
                             />
 
+                            <nav className="booklinkBlocks">
+                                <span> Spanish Version Ebook:</span>
+                                <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href="https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1">Amazon</a></li>
+                            </nav>
 
-            
+                            <nav className="booklinkBlocks">
+                                <span> Spanish Version Paperback:</span>
+                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1">Amazon</a></li>
+                            </nav>
+
                             <div className="commentSection" >
                                 <div id="disqus_thread">
                                     <DiscussionEmbed {...disqusConfig} />
                                 </div>
                             </div>
+
                     </div>	
                 </main>
 

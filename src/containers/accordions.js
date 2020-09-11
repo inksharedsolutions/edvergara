@@ -99,10 +99,12 @@ class Accordions extends React.Component {
                           stratton : 'https://www.stratton-press.com/books/transcend-the-3-elements/',
                           barnes: 'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458984',
                           amazon :'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara-ebook/dp/B084Q2FC47/ref=sr_1_1?dchild=1&keywords=9781643458984&qid=1596814551&s=books&sr=1-1', 
+                          spanish_amazon_link:'https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1',
                       },
                       reviews:{},
                       isNonfront:false,
-                      paperback:{}
+                      paperback:{},
+                      hasSpanishVersion:false,
                   }}
               />
             </div>
@@ -119,10 +121,12 @@ class Accordions extends React.Component {
                             amazon:'https://www.amazon.com/Transcend-3-Elements-Ed-Vergara/dp/1643458973/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1596814551&sr=1-1',
                             barnes:'https://www.barnesandnoble.com/w/transcend-ed-vergara/1136405586?ean=9781643458977',
                             booksamillion:'https://www.booksamillion.com/p/Transcend/Ed-Vergara/9781643458977?id=7714171848832',
+                            paperback_amazon_link:'https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1',
                         },
                         ebooks:{},
                         isNonfront:false,
                         reviews:{},
+                        hasSpanishVersion:false,
                       }}
                   />
             </div>
