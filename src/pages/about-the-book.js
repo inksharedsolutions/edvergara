@@ -111,14 +111,17 @@ const ATB = (props)=>{
                                 <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href="https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1">Amazon</a></li>
                             </nav>
 
-                            <nav className="booklinkBlocks">
-                                <span> Spanish Version Paperback:</span>
-                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1">Amazon</a></li>
-                            </nav>
 
-                            <div className="commentSection" >
-                                <div id="disqus_thread">
-                                    <DiscussionEmbed {...disqusConfig} />
+                            <div className="section-spanish-version">
+                                <nav className="booklinkBlocks">
+                                    <span> Spanish Version Paperback:</span>
+                                    <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1">Amazon</a></li>
+                                </nav>
+
+                                <div className="commentSection" >
+                                    <div id="disqus_thread">
+                                        <DiscussionEmbed {...disqusConfig} />
+                                    </div>
                                 </div>
                             </div>
 

@@ -16,9 +16,10 @@ const Trailer = () =>{
                             <span>Trailer</span>
                         </h1>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been 
-                            the industry's standard  dummy text ever since the 1500s, 
+                            Click to watch a visual presentation about the correlation
+                            between the three elements; matter, space, and time.
+                            Dive in and learn how these elements play a significant
+                            and practical way through different periods and eras.
                         </p>
                     </div>
 
