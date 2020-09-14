@@ -38,8 +38,8 @@ const Nav = (props) =>{
         <>
 			<nav className="navigation">
 				<li>
-					<Link to="/">
-						Home
+					<Link to="/trailer">
+						Trailer
 					</Link>
 				</li>
 
@@ -78,13 +78,13 @@ const Nav = (props) =>{
 						}:{
 							color: '#000'
 						}}
+						
 						to="/">
 						
 						<img 
 							className="logo-img"
 							src={Logo}
-						/>
-						
+						/>	
 					</Link>
 				</h1>
 

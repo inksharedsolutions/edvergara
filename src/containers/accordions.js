@@ -79,7 +79,6 @@ class Accordions extends React.Component {
           <Panel 
             header="About The Book"
             key="1" 
-
             onClick={()=>this.iconChanger()}
             extra={this.genExtra()}>
             <div>

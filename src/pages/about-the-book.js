@@ -42,7 +42,7 @@ const ATB = (props)=>{
                                     `
                                     <p>
                                         Your attitude will take control and guide all the events in your life.
-                                        Anything you do and know will condition what you receive. 
+                                        Anything you do and know will condition what you receive.
                                         The universe is energy. Our thoughts transform that concentration of
                                         energy creating our reality. At the core of our being, we are one
                                         with the planet earth, the universe, and the omnipresence of the Most High.

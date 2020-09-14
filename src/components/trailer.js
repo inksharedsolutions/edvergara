@@ -8,11 +8,25 @@ const Trailer = () =>{
         <>
             <section className="book-trailer">
                 <div className="grid-two-columns" id="trailer-body">
+
+                    <div className="grid-video-container">
+                        <div className="player-wrapper">
+                            <ReactPlayer
+                                className="react-player"
+                                url={"https://www.youtube.com/embed/qVkW9wIBtLo"} 
+                                width="100%"
+                                height="400px"
+                                controls={true}
+                                playIcon
+                            />
+                        </div>
+                    </div>
+                
                     
-                    <div className="grid-child-content">
+                    <div className="grid-child-content" id="content-trailer">
                         <h5>Ed Vergara</h5>
                         <h1>
-                            <span>Book</span>
+                            <span>Book</span> 
                             <span>Trailer</span>
                         </h1>
                         <p>
@@ -23,19 +37,6 @@ const Trailer = () =>{
                         </p>
                     </div>
 
-                    <div className="grid-video-container">
-                        <div className="player-wrapper">
-                            <ReactPlayer
-                                className="react-player"
-                                url={"https://www.youtube.com/embed/qVkW9wIBtLo"}
-                                width="100%"
-                                height="400px"
-                                controls={true}
-                                playIcon
-                            />
-                        </div>
-                    </div>
-                
                 </div> 
             </section>
         </>
