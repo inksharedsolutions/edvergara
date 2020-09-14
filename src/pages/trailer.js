@@ -28,6 +28,15 @@ const Trailer = (props) =>{
                                 playIcon
                             />
                         </div>
+
+                        <div className="section-content-info">
+                            <p>
+                                Click to watch a visual presentation about the correlation
+                                between the three elements; matter, space, and time.
+                                Dive in and learn how these elements play a significant
+                                and practical way through different periods and eras.
+                            </p>
+                        </div>
                 	</div>
                 </main>
 			</Layout>
