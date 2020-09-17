@@ -5,6 +5,7 @@ import Banner from '../components/non-front-banner'
 import BookInfo from '../components/book-info/book-info'
 import { DiscussionEmbed } from "disqus-react"
 import FrontBook from '../../static/books/Book_Cover.png'
+import FrontBookSpanish from '../../static/books/Book_Cover_Spanish.png'
 
 
 const ATB = (props)=>{
@@ -106,29 +107,101 @@ const ATB = (props)=>{
                                 }} 
                             />
 
-                            <nav className="booklinkBlocks">
-                                <span> Spanish Version Ebook:</span>
-                                <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href="https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1">Amazon</a></li>
-                            </nav>
 
+                             <BookInfo
+                                data={{
+                                    title:`Transcender`,
+                                    spanFirst: `Los 3 Elementos (U= 3Ɛ)`,
+                                    imgSrc: FrontBookSpanish,
+                                    id:'the_gifted_one',
+                                  
+                                    content:
+                                    `
+                                        <p> 
+                                            TRASCENDER...Descubre la fuerza que gobierna el Universo, ¿Cómo Funciona? 
+                                        </p> 
 
-                            <div className="section-spanish-version">
-                                <nav className="booklinkBlocks">
-                                    <span> Spanish Version Paperback:</span>
-                                    <li><a rel="noopener noreferrer" target="_blank" href="https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1">Amazon</a></li>
-                                </nav>
+                                        <p>
+                                          Tu actitud tomará el control y guiara todos los eventos en tu vida.
+                                          Cualquier cosa que hagas cotidianamente y aprendas condicionara lo que recibes.
+                                          El Universo es energía. Nuestros pensamientos transforman esa concentración de
+                                          energía creando nuestra realidad. En el núcleo de nuestro ser somos uno con el 
+                                          planeta tierra, el universo y la omnipresencia del Altísimo. La realidad es tanto 
+                                          espiritual, física, como psicológica.
+                                        </p>
 
-                                <div className="commentSection" >
-                                    <div id="disqus_thread">
-                                        <DiscussionEmbed {...disqusConfig} />
-                                    </div>
-                                </div>
-                            </div>
+                                        <p>
+                                            -"Tu eres, literalmente, lo que tú crees de ti mismo" - 
+                                        </p>
 
+                                        <p>
+                                            Tus creencias no están hechas de realidades, 
+                                        </p>
+
+                                        <p>
+                                           Sino más bien tu realidad está siendo formada cada día por tus creencias.
+                                        </p>
+
+                                        <p>
+                                           ¿Cuál es el Secreto y el vínculo entre: El tiempo, los sueños y la eternidad?
+                                           ¿Como aprender a servir a mi consciencia y entonces encontrar la verdadera
+                                           libertad y Soberanía? ¿Cuál es la relación entre la atracción, el magnetismo
+                                           y el alineamiento de la Energía? Este es un tratado de profunda fe, ciencia
+                                           y filosofía, que te mostrara de forma original y sencilla; es una guía al
+                                           lector que busca una conexión de los todos los elementos de: la naturaleza,
+                                           el universo, el tiempo, la vida con su propia trascendencia.
+                                        </p>
+
+                                        <p>
+                                            Una vez más tú eliges en qué realidad deseas vivir; tendrás que descubrir
+                                            y realizar tus más soñados e íntimos deseos. Solo al conocerte así mismo
+                                            podrás desarrollar tu máximo potencial, descubrirás lo inconcebible e
+                                            ilimitado pues como seas en tu interior así también serás en el exterior.
+                                            No habrá secreto que no te será revelado. Todo existe dentro de ti.
+                                        </p>
+
+                                        <p>
+                                            La eternidad ha llegado a tu vida y está esperando por ti para saber
+                                            qué hacer en el próximo momento. El Universo está esperando por ti para
+                                            saber qué rumbo seguir... Solamente tú puedes darle la dirección adecuada.
+                                        </p>
+
+                                        <p>
+                                            Los principios naturales del Universo son: Inmutables, Inquebrantables y Eternos. 
+                                            En realidad estos principios revelan la esencia y naturaleza de su Creador.
+                                            Están hechos de tal manera que son el fundamento de principios espirituales
+                                            que gobiernan los estados de conciencia que rigen la conducta humana.
+                                        </p>
+
+                                        <p>
+                                            Descubre como iniciar una época de éxito permanente en todo lo que haces.
+                                            Agradecer es la semilla y el principio para poder madurar y crecer; Las
+                                            adversidades y eventos en la vida de cada ser humano tienen una Conexión
+                                            Divina que te conecta con tus ángeles guardianes. Esto sucesos me impulsaron
+                                            a escribir y compartir estos auténticos relatos y anécdotas personales que te
+                                            revelaran como penetrar el universo. Pues donde existe el principio y su origen
+                                            también allí mismo se descubre el final.
+                                        </p>
+                                    `,
+
+                                    ebooks:{
+                                        stratton:'https://www.stratton-press.com/books/transcend-the-3-elements/',
+                                        barnes:'https://www.barnesandnoble.com/w/trascender-ed-vergara/1137421399?ean=9781648951145',
+                                        amazon:'https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1597083690&sr=8-1',
+                                        spanish_amazon_link:'https://www.amazon.com/Trascender-Spanish-Ed-Vergara-ebook/dp/B08F2W5753/ref=sr_1_1?dchild=1&keywords=9781648951145&qid=1597083690&sr=8-1',
+                                    },
+
+                                    paperback:{
+                                        amazon:'https://www.amazon.com/Trascender-Los-Tres-elementos-Spanish/dp/1512708283/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1597083690&sr=8-1',
+                                        barnes:'https://www.barnesandnoble.com/w/trascender-ed-vergara/1137465744?ean=9781648951138',
+                                        booksamillion:'https://www.booksamillion.com/p/Trascender/Ed-Vergara/9781648951138?id=7714171848832',
+                                        paperback_amazon_link:'https://www.amazon.com/Trascender-Ed-Vergara/dp/1648951139/ref=sr_1_1?dchild=1&keywords=9781648951138&qid=1597083707&sr=8-1',
+                                    }
+
+                                }} 
+                            />
                     </div>	
                 </main>
-
-
 		 	</Layout>
 		</>
 	)

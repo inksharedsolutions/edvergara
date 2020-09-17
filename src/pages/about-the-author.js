@@ -48,9 +48,8 @@ const ATB = (props)=>{
                                training has led him to be a specialist in urban planning, 
                                architecture, construction, and he is also an expert in health
                                and safety in construction (OSHA) and lectures in Latin America
-                               and to all US states.  Ed believes that history is the foundation
-                               for knowledge of all sciences and that history is the best tool for
-                               knowledge of the present and even the future.  
+                               and to all US states. Ed Believes that history is an excellent 
+                               tool for knowledge of the present and even the future.
                             </p>
 
                             <p>

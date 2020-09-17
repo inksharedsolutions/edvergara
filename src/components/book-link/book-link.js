@@ -30,20 +30,7 @@ const BookLink = (props)=>{
 
                 )}
 
-                {props.data.hasSpanishVersion && (
-                    <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
-                        <span> Spanish Version Ebook:</span>
-                        <li><a rel="noopener noreferrer" target="_blank" rel="noreferrer" href={props.data.ebooks.spanish_amazon_link}>Amazon</a></li>
-                    </nav>
-                )}
-
-                {props.data.hasSpanishVersion && (
-                    <nav className={`${props.data.isNonfront ? 'booklinkBlocks' : 'frontLinks'}`} >
-                        <span> Spanish Version Paperback:</span>
-                        <li><a rel="noopener noreferrer" target="_blank" href={props.data.paperback.paperback_amazon_link}>Amazon</a></li>
-                    </nav>
-                )}
-
+    
 
             </section>
 
